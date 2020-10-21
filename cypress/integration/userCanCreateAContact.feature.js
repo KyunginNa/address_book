@@ -17,7 +17,5 @@ describe('user can create a contact', () => {
 
     it('displays an email address of the new contact', () => {
         cy.get('#contact-list').should('contain','nakyungin93@gmail.com')
-    }
-    )
-
+    })
 })
