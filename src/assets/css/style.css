@@ -1,0 +1,54 @@
+body {
+    font-family: fantasy;
+    background-color: lightgrey;
+    margin-top: 25px;
+    margin-left: 10px;
+    border: 5px groove whitesmoke;
+    padding: 10px;
+}
+
+label {
+    font-size: large;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 50%;
+    height: 20px;
+    display: block;
+    border: 2px solid darkslategrey;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+input[type="email"] {
+    width: 50%;
+    height: 20px;
+    display: block;
+    border: 2px solid darkslategrey;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+textarea {
+    width: 50%;
+    height: 40px;
+    display: block;
+    border: 2px solid darkslategrey;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+button {
+    margin-bottom: 10px;
+    background-color: turquoise;
+    border-color: grey;
+    color: black;
+    padding: 5px;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+}
