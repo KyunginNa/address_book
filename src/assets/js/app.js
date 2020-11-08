@@ -13,7 +13,10 @@ const renderContacts = () => {
             li.innerHTML = `
                 <span>${contact.name}</span> |
                 <span>${contact.email}</span> |
-                <span>${contact.phone}</span>
+                <span>${contact.phone}</span> |
+		<span>${contact.company}</span> |
+		<span>${contact.notes}</span> |
+		<span>${contact.sns}</span>
             `
             ul.appendChild(li)
         })
